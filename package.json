@@ -1,7 +1,7 @@
 {
   "name": "esa-featuredchannels",
   "version": "1.0.0",
-  "description": "DESCRIPTION_TODO",
+  "description": "NodeCG bundle used alongside nodecg-speedcontrol to set featured channels on the ESAMarathon channel.",
   "homepage": "https://github.com/esamarathon/esa-featuredchannels#readme",
   "bugs": {
     "url": "https://github.com/esamarathon/esa-featuredchannels/issues"
