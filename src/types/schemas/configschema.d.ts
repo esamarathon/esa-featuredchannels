@@ -6,6 +6,6 @@
  */
 
 export interface Configschema {
-  address: string;
-  postKey: string;
+	address: string;
+	postKey: string;
 }
