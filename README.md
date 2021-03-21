@@ -9,7 +9,7 @@
 
 ## Installation
 
-This is a [NodeCG](https://nodecg.com) v1.6.0 bundle. You will need to have NodeCG v1.6.0 or above installed to run it. It also requires you to install the [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol) bundle (at least v2.1.0).
+This is a [NodeCG](https://nodecg.com) v1.8.1 bundle. You will need to have NodeCG v1.8.1 or above installed to run it. It also requires you to install the [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol) bundle (at least v2.2.0).
 
 Install this bundle just like any other NodeCG bundle; if you have `nodecg-cli` you can:
 - Use `nodecg install esamarathon/esa-featuredchannels`, then...
@@ -17,7 +17,7 @@ Install this bundle just like any other NodeCG bundle; if you have `nodecg-cli` 
 
 If not obvious, you must be logged into/authorised with Twitch in the `nodecg-speedcontrol` bundle to be able to change featured channels.
 
-You must also set the `channelName` setting in your `nodecg-speedcontrol` Twitch configuration to "esamarathon" if not done already, `ffzIntegration` to `true` (if not done already) and `ffzUseRepeater` to `true`. See [the relevant README](https://github.com/speedcontrol/nodecg-speedcontrol/blob/dev/READMES/Configuration.md#twitch) for more information.
+You must also set the `channelName` setting in your `nodecg-speedcontrol` Twitch configuration to "esamarathon" (if not done already), `ffzIntegration` to `true` (if not done already) and `ffzUseRepeater` to `true`. See [the relevant README](https://github.com/speedcontrol/nodecg-speedcontrol/blob/master/READMES/Configuration.md#twitch) for more information.
 
 ## Configuration
 
@@ -28,8 +28,8 @@ You must also set the `channelName` setting in your `nodecg-speedcontrol` Twitch
 }
 ```
 
-- `address`: Address to the external server that will be used, only change this if requested.
-- `postKey`: Key used to authenticate your changes, will be supplied to you.
+- `address`: Address to the external server that will be used; only change this if requested.
+- `postKey`: Key used to authenticate your changes; will be supplied to you.
 
 
 ## Usage
