@@ -4,12 +4,12 @@
 
 > NodeCG bundle used alongside nodecg-speedcontrol to set featured channels on the ESAMarathon channel.
 
-*This is a bundle for [NodeCG](https://nodecg.com/); if you do not understand what that is, we advise you read their website first for more information.*
+*This is a bundle for [NodeCG](https://nodecg.dev); if you do not understand what that is, we advise you read their website first for more information.*
 
 
 ## Installation
 
-This is a [NodeCG](https://nodecg.com) v1.8.1 bundle. You will need to have NodeCG v1.8.1 or above installed to run it. It also requires you to install the [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol) bundle (at least v2.2.0).
+This is a [NodeCG](https://nodecg.dev) v1.8.1 bundle. You will need to have NodeCG v1.8.1 or above installed to run it. It also requires you to install the [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol) bundle (at least v2.2.0).
 
 Install this bundle just like any other NodeCG bundle; if you have `nodecg-cli` you can:
 - Use `nodecg install esamarathon/esa-featuredchannels`, then...
