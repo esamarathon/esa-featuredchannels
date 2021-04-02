@@ -1,4 +1,4 @@
-import type { Configschema } from '@/types/schemas';
+import type { Configschema } from '@esa-featuredchannels/types/schemas';
 import needle from 'needle';
 import SpeedcontrolUtil from 'speedcontrol-util';
 import { get as nodecg } from './util/nodecg';
