@@ -18,7 +18,7 @@ jobs:
         token: ${{ secrets['GITHUB_TOKEN'] }}
         repository: nodecg/nodecg
         path: ./nodecg-temp
-    
+
     # Copies checked out NodeCG into permanent folder.
     # If I didn't do this, some bundles seemed to not actually checkout successfully later
     - name: Copy ./nodecg-temp > ./nodecg

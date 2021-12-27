@@ -6,7 +6,6 @@
 
 *This is a bundle for [NodeCG](https://nodecg.dev); if you do not understand what that is, we advise you read their website first for more information.*
 
-
 ## Installation
 
 This is a [NodeCG](https://nodecg.dev) v1.8.1 bundle. You will need to have NodeCG v1.8.1 or above installed to run it. It also requires you to install the [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol) bundle (at least v2.2.0).
@@ -30,7 +29,6 @@ You must also set the `channelName` setting in your `nodecg-speedcontrol` Twitch
 
 - `address`: Address to the external server that will be used; only change this if requested.
 - `postKey`: Key used to authenticate your changes; will be supplied to you.
-
 
 ## Usage
 
