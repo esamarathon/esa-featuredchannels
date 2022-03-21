@@ -12,7 +12,7 @@ This is a [NodeCG](https://nodecg.dev) v1.8.1 bundle. You will need to have Node
 
 Install this bundle just like any other NodeCG bundle; if you have `nodecg-cli` you can:
 - Use `nodecg install esamarathon/esa-featuredchannels`, then...
-- Do `nodecg defaultconfig featuredchannels` to generate a default configuration file.
+- Do `nodecg defaultconfig esa-featuredchannels` to generate a default configuration file.
 
 If not obvious, you must be logged into/authorised with Twitch in the `nodecg-speedcontrol` bundle to be able to change featured channels.
 
