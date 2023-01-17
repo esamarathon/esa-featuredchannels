@@ -1,10 +1,9 @@
-import type { Configschema } from '@esa-featuredchannels/types/schemas';
 import needle from 'needle';
 import SpeedcontrolUtil from 'speedcontrol-util';
 import { get as nodecg } from './util/nodecg';
 
-const config = nodecg().bundleConfig as Configschema;
-const sc = new SpeedcontrolUtil(nodecg());
+const config = nodecg().bundleConfig;
+const sc = new SpeedcontrolUtil(nodecg() as any); // Need to fix the typings in speedcontrol-util!
 
 // Used to update the featured channels on the bridge running on an external server.
 async function setChannels(usernames: string[]): Promise<void> {

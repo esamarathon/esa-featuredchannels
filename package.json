@@ -26,6 +26,7 @@
     "speedcontrol-util": "^0.6.0-RC7"
   },
   "devDependencies": {
+    "@alvancamp/test-nodecg-types": "^1.9.27",
     "@types/module-alias": "^2.0.1",
     "@types/needle": "^3.2.0",
     "@types/node": "^18.11.18",
