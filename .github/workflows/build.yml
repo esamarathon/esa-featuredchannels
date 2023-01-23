@@ -80,7 +80,7 @@ jobs:
       id: commit
       continue-on-error: true
       run: |
-        git add -f dashboard extension
+        git add -f extension
         git commit -m "Built files" -a
 
     # Pushes the built files to a specific branch
