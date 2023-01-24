@@ -3,7 +3,7 @@ import SpeedcontrolUtil from 'speedcontrol-util';
 import { get as nodecg } from './util/nodecg';
 
 const config = nodecg().bundleConfig;
-const sc = new SpeedcontrolUtil(nodecg() as any); // Need to fix the typings in speedcontrol-util!
+const sc = new SpeedcontrolUtil(nodecg());
 
 // Used to update the featured channels on the bridge running on an external server.
 async function setChannels(usernames: string[]): Promise<void> {
