@@ -43,7 +43,7 @@
     "typescript": "^4.9.4"
   },
   "nodecg": {
-    "compatibleRange": "^1.8.1",
+    "compatibleRange": "^1.8.1||^2",
     "bundleDependencies": {
       "nodecg-speedcontrol": "^2.4.0"
     }
