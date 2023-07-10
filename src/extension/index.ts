@@ -5,8 +5,8 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 require('module-alias').addAlias('@esa-featuredchannels', require('path').join(__dirname, '.'));
 
-import type NodeCGTypes from '@alvancamp/test-nodecg-types';
 import { Configschema } from '@esa-featuredchannels/types/schemas';
+import type NodeCGTypes from '@nodecg/types';
 import { set } from './util/nodecg';
 
 export = (nodecg: NodeCGTypes.ServerAPI<Configschema>): void => {
